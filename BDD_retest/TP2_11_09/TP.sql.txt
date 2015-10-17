@@ -1,0 +1,57 @@
+CREATE TABLE groupes(
+
+TP INTEGER primary key, 
+
+resp varchar(30),
+
+del varchar(30)
+
+);
+
+
+
+
+CREATE TABLE entreprise(
+
+numEnt INTEGER primary key AUTO_INCREMENT,
+
+ent varchar(30), 
+
+lieu varchar(30)
+
+);
+
+
+
+CREATE TABLE etudiant(
+
+numE INTEGER primary key, 
+
+nom VARCHAR(30), 
+
+prenom VARCHAR(30), 
+
+moyS1 decimal(3,1), 
+
+moyS2 decimal(3,1), 
+
+TP integer, 
+
+numEnt INTEGER,
+
+CONSTRAINT fk_etud_groupe
+
+Foreign key (TP)
+
+References groupes (TP),
+
+
+CONSTRAINT fk_etud_entreprise
+
+Foreign key (numEnt)
+
+References entreprise (numEnt)
+)
+
+SELECT numE,nom,E.TP,G.TP,G.resp
+FROM ETUDIANT E, GROUPES G

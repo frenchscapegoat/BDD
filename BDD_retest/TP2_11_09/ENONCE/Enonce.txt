@@ -1,0 +1,31 @@
+Donner le schéma Relationnel obtenu sous mysql
+
+NB. 
+
+On utilisera alors l'onglet concepteur de phpmyadmin
+
+Déplacez les tables pour obtenir un schéma le plus lisible possible ...
+
+puis faites en une image (pdf)
+
+à la fin de la séance vous le soummetrez dans votre archive...
+----
+
+Comment s'écrivent maintenant les requêtes précédentes...
+
+1.(SQL) Donner la moyenne générale du TP111 au S1.
+----
+
+Donner la moyenne générale du TP 111 sur l'année
+----
+
+Donner la moyenne générale par TP
+----
+
+(SQL Donner les différents TP ainsi que leur responsable
+
+
+--<><---<<<
+
+----
+

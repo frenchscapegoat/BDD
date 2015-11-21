@@ -1,0 +1,25 @@
+Compte rendu 21 -10 Projet Movie Quizz
+
+-> Gestion de projet le plus important
+On veut du GANTT / PERT
+Comment rectifier si on se rate
+On ne confie pas de mission "secrétaire" à qqun en particulier
+Pourquoi on veut faire le projet en JAVA
+-> Parce que c'est portable
+-> Parce qu'on le voit en cours
+
+---> REVUE MI-PROJET = Mi-Décembre
+
+Rappel : On fonctionne comme une start-Up
+
+Qu'est ce que maitrise ouvrage ?
+-> Il dit : c'ets tel jeu, avec tel et tel fonction, pour tel date. Et c'est moi qui paye.
+
+Qu'est ce que maitrise oeuvre ?
+-> Il analyse, il crée et il programme le code source
+
+Il faudrait au mieux : 1 maitrise ouvrage et 3 maitrise d'oeuvre
+
+-> PERT permet d'avoir un chemin critique
+On explique comment on a procédé pour passer de l'idée à la réalisation
+Définition du besoin solide : POUQUOI on répond à ce besoin ?

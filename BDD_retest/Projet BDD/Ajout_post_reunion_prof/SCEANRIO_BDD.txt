@@ -1,0 +1,53 @@
+-- scénario BDD
+
+-- OUBLIE PAS DE RAJOUTER UN CHECK capacité>nb total de personne qui ont déjà acheté !!
+
+
+-- n° de telephone de toutes les personnes qui ont acheté le billet d'un event
+SQL :
+SELECT * FROM `acheteur`
+NATURAL JOIN evenement
+WHERE nomEv='gala'
+
+-- Prix moyen pour les évenements parisiens
+SQL :
+SELECT
+FROM
+WHERE
+
+-- Prix moyen pour chauqe évèenement de Paris :
+SELECT NumEv,NomEv,DateEv,Ville,AVG(prix)
+FROM `evenement`
+NATURAL JOIN tarif
+WHERE ville='paris'
+GROUP BY NumEv,NomEv,DateEv,Ville
+
+-- Tous les billets achetés le 21 octobre 2015
+SELECT *
+FROM spectateur
+WHERE cdate ='21-10-2015' -- SYNTAXE A VERIFIER
+
+-- Total recette de l'event
+SELECT * FROM applique
+NATURAL JOIN spectateur
+NATURAL JOIN TARIF 
+WHERE NumEv = 3
+ORDER BY `spectateur`.`NumSpe` ASC
+
+SELECT SUM(prix) AS 'Recette event n°3'
+FROM applique
+NATURAL JOIN spectateur
+NATURAL JOIN TARIF  
+WHERE NumEv=3
+ORDER BY `spectateur`.`NumSpe` ASC
+
+Nb de places encore dispo pour tel event
+SQL :
+SELECT
+FROM
+WHERE
+
+
+Tous les participants à tous les évènements disponibles
+SELECT * FROM `evenement`
+NATURAL JOIN spectateur

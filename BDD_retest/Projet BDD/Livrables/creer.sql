@@ -44,6 +44,7 @@ CREATE TABLE EVENEMENT(
         NumEv    int (11) Auto_increment  NOT NULL ,-- PK et notnull
         NomEv    Varchar (25) ,
         DateEv   Date ,
+		Ville Varchar(25),
         Capacite Int NOT NULL,-- Notnull,
         PRIMARY KEY (NumEv )
 )ENGINE=InnoDB;
